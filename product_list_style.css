@@ -9,7 +9,15 @@ a:hover
 	color: #3A98DC;
 }
 
+.desktop_view, .mobile_view
+{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
 
+ 
 .content-div 
 {
 	display: none;
@@ -118,17 +126,7 @@ a:hover
 
 }
 
-@media only screen and (max-width: 600px) 
-  {
-	  .sofeware_item
-	{
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 2em;
 
-	}
-	  
-  }
 
 #sofeware_item_picture
 {
@@ -254,7 +252,7 @@ a:hover
 
 .sofeware_item_picture30
 {
-	background:url('https://webobjects2.cdw.com/is/image/CDW/6234574?$product_search_result$&h=200&w=200');
+	background:url('gd_30.png');
 }
 
 .sofeware_item_picture31
@@ -428,3 +426,34 @@ a:hover
 {
 	background:url('https://webobjects2.cdw.com/is/image/CDW/6264304?$product_search_result$&h=200&w=200');
 }
+
+
+.mobile_view
+{
+	display: none;
+}
+
+/**mobile and destop views**/
+
+@media only screen and (max-width: 600px) 
+{
+	.sofeware_item
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2em;
+
+	}
+		
+	.desktop_view
+	{
+		display: none;
+	}
+
+	.mobile_view
+	{
+		display: block;
+	}
+}
+	  
+  
