@@ -453,7 +453,7 @@ a:hover
 
 	.mobile_view
 	{
-		display: block;
+		display: grid;
 		overflow-x: hidden;
 
 	}
