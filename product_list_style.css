@@ -454,6 +454,8 @@ a:hover
 	.mobile_view
 	{
 		display: block;
+		overflow-x: hidden;
+
 	}
 
 	.sofeware_item_topic span{font-size: 2em;}
