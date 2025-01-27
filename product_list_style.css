@@ -15,8 +15,7 @@ a:hover
 	height: auto;
 	margin: 0px;
 	padding: 0px;
-	scroll-snap-points-x: none;
-	scroll-snap-points-y: none;
+ 
 }
 
  
@@ -456,6 +455,10 @@ a:hover
 	{
 		display: block;
 	}
+
+	.sofeware_item_topic span{font-size: 2em;}
+
+
 }
 	  
   
