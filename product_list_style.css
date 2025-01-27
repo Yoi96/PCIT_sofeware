@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+a{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #3A98DC;
+}
+
+
+.content-div 
+{
+	display: none;
+	width: 100%;
+	height: auto;
+
+}
+
+#product_list
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	font-family: "Lato", sans-serif;
+}
+
+#product_list_navs
+{
+ 	width:250px;
+ 	height:2em;
+  	font-family: "Lato", sans-serif;
+  	text-align: center;
+}
+
+ 
+
+#sofeware_items
+{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sofeware_item_title
+{
+	color: #3A98DC;
+	font-weight: bolder;
+	font-size: 1.4em;
+ 
+}
+
+.sofeware_item_topic span
+{
+	font-weight: bolder;
+	font-size:3em;
+	text-transform: uppercase;
+  	
+}
+ 
+.sofeware_item_topic 
+{
+
+	margin-top: 2em;
+
+}
+
+.sofeware_item_topic hr{
+	border:#3A98DC 3px solid;
+}
+
+.sofeware_item_topic p{padding: 0px;margin: 0px;margin-top: 0.5em;}
+
+
+.sofeware_item_description
+{
+	color: #666666;
+	font-size: 1em;
+	width: 100%;
+	margin-top:0.5em;
+}
+
+.sofeware_button
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+
+}
+
+.sofeware_button button
+{
+	border: none;
+	background: black;
+	line-height: 3em;
+	margin-top: 1em;
+	width: 100%;
+	text-transform: uppercase;
+
+}
+
+.sofeware_button button a{color: white;}
+
+.sofeware_button button:hover
+{
+	background-color: #3A98DC;
+}
+
+.sofeware_item
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2em;
+
+}
+
+@media only screen and (max-width: 600px) 
+  {
+	  .sofeware_item
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2em;
+
+	}
+	  
+  }
+
+#sofeware_item_picture
+{
+	width: 100%;
+	line-height: 10em;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	margin-top:3em;
+	margin-bottom: 1em;
+}
+
+.sofeware_item_picture1
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/1863815?$product_search_result$');
+}
+
+.sofeware_item_picture2
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3446435?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture3
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5783976?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture4
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3499178?$product-main$&h=200&w=200');
+}
+
+.sofeware_item_picture5
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5877501?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture6
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5504993?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture7
+{
+	background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuZK3iebGmzddV-zu1bFM6NAiLRY9Fdf_rVQzvhLmPapnzhcbG');
+}
+
+
+.sofeware_item_picture8
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5722068?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture9
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/7222526?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture10
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5095000?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture11
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3446614?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture12
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3446583?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture13
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3446613?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture14
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/7362897?$product_search_result$&h=200&w=200');
+}
+
+/********/
+
+.sofeware_item_picture20
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5256415?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture21
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6798939?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture22
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4252646?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture23
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6380377?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture24
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6811921?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture25
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3190872?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture26
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6001287?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture30
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6234574?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture31
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6716007?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture32
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5197463?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture33
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/7214381?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture40
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5497529?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture41
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6501791?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture42
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5068942?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture43
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5988499?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture44
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6266988?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture45
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/1742991?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture46
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/2989770?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture47
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5606867?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture48
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4447141?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture50
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4631232?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture51
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4878188?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture52
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3148757?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture60
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3465916?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture61
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6905213?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture62
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3497726?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture63
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4513905?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture70
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5859145?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture71
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6377907?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture72
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5393719?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture73
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5475314?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture74
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5839578?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture75
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5878169?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture76
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/3799558?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture77
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/5112354?$product_search_result$&h=200&w=200');
+}
+
+.sofeware_item_picture78
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/4955030?$product_search_result$&h=200&w=200');
+}
+
+
+.sofeware_item_picture80
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6100026?$product_search_result$&h=200&w=200');
+}
+
+
+
+.sofeware_item_picture81
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6264304?$product_search_result$&h=200&w=200');
+}
+
+
+
+.sofeware_item_picture82
+{
+	background:url('https://webobjects2.cdw.com/is/image/CDW/6264304?$product_search_result$&h=200&w=200');
+}
