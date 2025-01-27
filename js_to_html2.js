@@ -1,4 +1,8 @@
 const businessApplicationsContent = `
+     <link rel="stylesheet" type="text/css" href="https://yoi96.github.io/PCIT_sofeware/product_list_style.css">
+
+
+
      <!-- Dropdown Navigation -->
 <select id="product_list_navs" onchange="showContent()">
     <option value="business_applications">Business Applications</option>
@@ -1547,6 +1551,7 @@ const businessApplicationsContent = `
 
 </div><!-----------mobile_view----------------->
 </div><!-- Content Sections -->
+    
     `;
 
 document.getElementById("business_applications_content").innerHTML = businessApplicationsContent;
